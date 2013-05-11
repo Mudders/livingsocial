@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Livingsocial</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+    <link rel="stylesheet" href="resources/css/app-custom.css" />
+</head>
+
+<body>
+    <div data-role="page" data-add-back-btn="false" id="livingsocial-home">
+       <div data-role="header" data-theme="a">
+          <h1><img alt='livingsocila log' src="resources/images/livingsocial-logo.png"></h1>
+       </div> 
+       <div >                
+       		<select name="city" id="city" data-native-menu="false" data-theme="a" data-corners="false" data-icon="ls-arrow-d">
+				<option value="atlanta">atlanta</option>
+				<option value="boston">boston</option>
+				<option value="chicago">chicago</option>
+				<option value="new york">new york</option>
+				<option value="philadelphia">philadelphia</option>
+			</select>
+        </div>	
+        <div data-role="content">
+	        <ul data-role="listview" data-inset="false" data-theme="l" class="record-list">     
+	            <li data-icon="ls-arrow-r">
+	            	<a>
+		            	<img alt='' src="resources/images/deals-icon.png">
+		                <h1>today's deals</h1>
+	            	</a>
+	            </li> 
+	            <li data-icon="ls-arrow-r">
+	            	<a>
+		            	<img alt='' src="resources/images/takeout-icon.png">
+		                <h1>takeout & delivery</h1>
+	            	</a>
+	            </li>  
+	            <li data-icon="ls-arrow-r">
+	            	<a>
+		            	<img alt='' src="resources/images/escapes-icon.png">
+		                <h1>escapes</h1>
+	            	</a>
+	            </li> 
+	            <li data-icon="ls-arrow-r">
+	            	<a>
+		            	<img alt='' src="resources/images/adventures-icon.png">
+		                <h1>adventures</h1>
+	            	</a>
+	             </li>  
+	            <li data-icon="ls-arrow-r">
+	            	<a>
+		            	<img alt='' src="resources/images/my-vouchers-icon.png">
+		                <h1>my vouchers</h1>
+	            	</a> 
+	             </li>  
+	            <li data-icon="ls-arrow-r">
+	            	<a>
+		            	<img alt='' src="resources/images/settings-icon.png">
+		                <h1>settings</h1>
+	            	</a> 
+	             </li>
+	        </ul>
+    	</div>	
+    </div>
+</body>
+</html>
